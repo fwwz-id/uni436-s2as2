@@ -8,9 +8,8 @@ This repository contains a solution for the Stage 2 SIC (Samsung Innovation Camp
 
 - **ESP32 DevKit Board**
 - **Sensors:**
-  - DHT22 (Temperature & Humidity)
-  - HC-SR04 (Ultrasonic Distance)
-  - LDR (Light Sensor)
+  - DHT11 (Temperature & Humidity)
+  - HC-SR501 (Motion Sensor)
 
 ### Software Components
 
@@ -68,9 +67,11 @@ The project can be simulated using Wokwi for ESP32 development. See [diagram.jso
 ### Wokwi Setup
 
 #### 1. Install Wokwi Extension
+
 - Download the [Wokwi VS Code extension](https://marketplace.visualstudio.com/items?itemName=Wokwi.wokwi-vscode).
 
 #### 2. Start the Simulator
+
 - Press `Ctrl + Shift + P` to open the command palette.
 - Search for `Wokwi: Start Simulation` and select `wokwi.toml` when prompted.
 
@@ -117,3 +118,12 @@ mpremote connect port:rfc2217://<esp32-ip>:4000 run esp32/main.py
 ## License
 
 This project is part of an event assignment.
+
+## Developer
+
+| Mantainer                 | Email                     |
+| ------------------------- | ------------------------- |
+| Fawwaz Abdurrahim         | fwwz.id@gmail.com         |
+| Mohammad Luqman Hakim     | moh.luqman.nore@gmail.com |
+| Muhammad Rafly Adryansyah | muhr0417@gmail.com        |
+| Wildan Wigenta            | wildanwigenta52@gmail.com |
